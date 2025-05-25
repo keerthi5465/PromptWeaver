@@ -1,0 +1,35 @@
+# Model Configuration
+model_name: "stabilityai/stable-diffusion-xl-base-1.0"
+output_dir: "models/trained_loras"
+
+# Training Parameters
+epochs: 10
+batch_size: 4
+learning_rate: 1e-4
+lora_rank: 4
+lora_alpha: 32.0
+
+# Dataset Configuration
+dataset_path: "data/training_data.json"
+validation_split: 0.1
+
+# Training Settings
+mixed_precision: true
+gradient_accumulation_steps: 4
+max_grad_norm: 1.0
+warmup_steps: 100
+
+# Logging and Checkpointing
+save_steps: 500
+logging_steps: 100
+eval_steps: 500
+
+# Hardware Configuration
+use_gpu: true
+num_workers: 4
+
+# Optional: Model-specific settings
+model_config:
+  attention_mode: "xformers"
+  use_8bit_adam: true
+  gradient_checkpointing: true 

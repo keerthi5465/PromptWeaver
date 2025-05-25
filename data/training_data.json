@@ -1,0 +1,42 @@
+[
+    {
+        "text": "A serene mountain landscape at sunset, with snow-capped peaks and a golden sky",
+        "metadata": {
+            "style": "landscape",
+            "time_of_day": "sunset",
+            "weather": "clear"
+        }
+    },
+    {
+        "text": "A futuristic cityscape with flying cars and neon lights, cyberpunk style",
+        "metadata": {
+            "style": "cyberpunk",
+            "time_of_day": "night",
+            "weather": "clear"
+        }
+    },
+    {
+        "text": "A magical forest with glowing mushrooms and fairy lights, fantasy style",
+        "metadata": {
+            "style": "fantasy",
+            "time_of_day": "night",
+            "weather": "clear"
+        }
+    },
+    {
+        "text": "A cozy cafe interior with steam rising from coffee cups, warm lighting",
+        "metadata": {
+            "style": "interior",
+            "time_of_day": "day",
+            "weather": "indoor"
+        }
+    },
+    {
+        "text": "An underwater scene with coral reefs and tropical fish, vibrant colors",
+        "metadata": {
+            "style": "underwater",
+            "time_of_day": "day",
+            "weather": "clear"
+        }
+    }
+] 
